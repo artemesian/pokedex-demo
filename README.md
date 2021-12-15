@@ -1,12 +1,12 @@
 # POKEDEX DEMO
 
-Available at [Pokedex](https://pokedex-demo-8kbdbb524-artemesian.vercel.app/).
+Available at [Pokedex](https://pokedex-demo-kappa.vercel.app/).
 
 ## Run Locally
 
 - `npm install`
-- `npm start
+- `npm start`
 
 ## NB:
 
-### not all pokemon have descriptions, an example with description is [Pokemon dragonite](https://pokedex-demo-8kbdbb524-artemesian.vercel.app/pokemon/dragonite)
+### not all pokemon have descriptions, an example with description is [Pokemon dragonite](https://pokedex-demo-kappa.vercel.app/pokemon/dragonite)
