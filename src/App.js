@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, Routes } from "react-router";
+import { Header, Content } from "antd/lib/layout/layout";
+// Pages
+import Home from "./pages/home";
+import About from "./pages/about";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header className="app-header-title">POKEDEX</Header>
+      <Content className="app-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/pokemon/:specie" element={<About />} />
+        </Routes>
+      </Content>
     </div>
   );
 }
