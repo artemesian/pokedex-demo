@@ -1,6 +1,6 @@
 # POKEDEX DEMO
 
-Available at [Pokedex](https://github.com/facebook/create-react-app).
+Available at [Pokedex](https://pokedex-demo-8kbdbb524-artemesian.vercel.app/).
 
 ## Run Locally
 
@@ -9,4 +9,4 @@ Available at [Pokedex](https://github.com/facebook/create-react-app).
 
 ## NB:
 
-### not all pokemon have descriptions, an example with description is [Pokemon dragonite](https://github.com/facebook/create-react-app)
+### not all pokemon have descriptions, an example with description is [Pokemon dragonite](https://pokedex-demo-8kbdbb524-artemesian.vercel.app/pokemon/dragonite)
